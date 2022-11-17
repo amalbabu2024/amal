@@ -1,0 +1,9 @@
+dict1={'fruit':'apple','climate':'cold','price':100}
+dict1.pop('price')
+print(dict1)
+dict1.update({'fruit':'orange'})
+print(dict1)
+x=dict1.copy()
+print(x)
+y=dict1.keys()
+print(y)
